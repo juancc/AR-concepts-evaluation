@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <AR>
+        <MarkerSize>10</MarkerSize>
+        <numMarkers>2</numMarkers>
+        <mS>0.2</mS>
+        <patternPath>patt.hiro</patternPath>
+        <camPara>camera_para.dat</camPara>
+        <camSizeW>352</camSizeW>
+        <camSizeH>288</camSizeH>
+        <ftps>15</ftps>      
+    </AR>
+</config>

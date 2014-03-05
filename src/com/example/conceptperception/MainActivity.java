@@ -44,7 +44,7 @@ public class MainActivity extends PApplet{
 	public void setup() {
 		
 		//falta objeto que carga las direcciones
-		String urlConfig = "https://www.dropbox.com/s/dlx08szxy9u244g/config.xml";
+		String urlConfig = "https://dl.dropboxusercontent.com/s/dlx08szxy9u244g/config.xml";
 	
 		
 		

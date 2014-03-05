@@ -1,5 +1,7 @@
 package com.example.conceptperception;
 
+import android.util.Log;
+
 public class ARconfig {
 	
 	 //Variables Realidad aumentada--------------------------------------
@@ -13,12 +15,14 @@ public class ARconfig {
 	  private int camSizeH;
 	  private int ftps;
 	  
+	  private static String tag = "ARconfig";
+	  
 	  public int getMarkerSize(){
 	    return MarkerSize;
 	  }
 	  public void setMarkerSize(int MarkerSize){
 	    this.MarkerSize = MarkerSize;
-	    System.out.println("Marker Size: " + this.MarkerSize);
+	    Log.i(tag, "MarkerSize: "+ MarkerSize);
 	  }
 	  
 	  public int getnumMarkers(){
@@ -26,7 +30,7 @@ public class ARconfig {
 	  }
 	  public void setnumMarkers(int numMarkers){
 	    this.numMarkers = numMarkers;
-	    System.out.println("Number of Markers: " + this.numMarkers);
+	    Log.i(tag, "MarkerSize: "+ numMarkers);
 	  }
 	  
 	  public float getmS(){

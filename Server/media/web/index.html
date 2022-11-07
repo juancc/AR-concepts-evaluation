@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Realidad Aumentada</title>
+        <link href='' rel='shortcut icon' type='image/png'>
+        <link rel="stylesheet" href="style/style.css" type="text/css">
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/funcJs.js"></script>
+        <script type="text/javascript" src="js/DS.js"></script>
+    </head>
+    <body>
+		<div id = "contenedor">
+			<div id="divIzq">
+				<div id= "proyectos">
+					<h1>Proyectos</h1>
+					<ul>
+
+					</ul>
+				</div>
+			</div>
+			<div id="divDer">
+				<h1>Nombre proyecto</h1>
+				<div id="datos">
+                    <div class="dato">
+                        <h2>Concepto</h2>
+                        <input class="cambio" type="radio" name="concept" value="camelbak" >camelbak
+                        <input class="cambio" type="radio" name="concept" value="sura">sura
+                    </div>
+					<div class="dato">
+						<h2>Genero</h2>
+                        <input class="cambio" type="radio" name="sex" value="Masculino">Masculino
+                        <input class="cambio" type="radio" name="sex" value="Femenino">Femenino
+					</div>
+					<div class="dato">
+						<h2>Estrato</h2>
+						<input class="cambio" type="radio" name="estrato" value="1">1
+                        <input class="cambio" type="radio" name="estrato" value="2">2
+                        <input class="cambio" type="radio" name="estrato" value="3">3
+                        <input class="cambio" type="radio" name="estrato" value="4">4
+                        <input class="cambio" type="radio" name="estrato" value="5">5
+                        <input class="cambio" type="radio" name="estrato" value="6">6
+					</div>
+					<div class="dato edad">
+						<h2>Edad</h2>
+                        <input class="cambio" type="radio" name="edad" value="1987">87
+                        <input class="cambio" type="radio" name="edad" value="1988">88	
+                        <input class="cambio" type="radio" name="edad" value="1989">89	
+                        <input class="cambio" type="radio" name="edad" value="1990">90	
+                        <input class="cambio" type="radio" name="edad" value="1991">91	
+                        <input class="cambio" type="radio" name="edad" value="1992">92	
+                        <input class="cambio" type="radio" name="edad" value="1993">93	
+                        <input class="cambio" type="radio" name="edad" value="1994">94	
+                        <input class="cambio" type="radio" name="edad" value="1995">95	
+                        <input class="cambio" type="radio" name="edad" value="1996">96	
+                        <input class="cambio" type="radio" name="edad" value="1997">97	
+					</div>
+					<div class="dato">
+						<h2>Profesión</h2>
+                        <select id="profesion" class="cambio">
+							<option  value ="IP" >Estudiante Universitario</option>
+							<option value = "IS">Ing de Produccion</option>
+							<option value = "IS">Ingeniero</option>
+							<option value = "IS">administración de negocios</option>
+							<option value = "IS" selected="selected">none</option>
+						</select>
+					</div>
+					<div class="dato">
+						<h2>Iluminación</h2>
+                        <input class="cambio" type="radio" name="light" value = "175.75,106.95,128.5"><p  style="background-color: rgb(175, 106, 128);">(175.75, 106.95, 128.5)</p>
+                        <input class="cambio" type="radio" name="light" value = "219.83333333333334,218.83333333333334,215"><p  style="background-color: rgb(219, 218, 215);">(219.8, 218.8, 215 )</p>
+                        <input class="cambio" type="radio" name="light" value = "170.68,175.64,136.36 "><p  style="background-color: rgb(170, 175, 136);">(170.6, 175.6, 136.3)</p>
+
+					</div>
+					<div class="dato">
+						<h2>Contexto de Colores</h2>
+                        <input class="cambio" type="radio" name="colors" value = "178,175,169"><p  style="background-color: rgb( 178, 175, 169 );">( 178, 175, 169)</p>
+                        <input class="cambio" type="radio" name="colors" value = "115,115,113"><p  style="background-color: rgb(115, 115, 113);">( 115, 115, 113)</p>
+                        <input class="cambio" type="radio" name="colors" value = "100,111,101"><p  style="background-color: rgb(100, 111, 101);">( 100, 111, 101)</p>
+                        <input class="cambio" type="radio" name="colors" value = "125,122,102"><p  style="background-color: rgb(125, 122, 102);">( 125, 122, 102)</p>
+                        <input class="cambio" type="radio" name="colors" value = "23,52,69"><p  style="background-color: rgb(23, 52, 69);">(23, 52, 69)</p>
+					</div>
+				</div>
+				<div id="adjetivos">
+                    <svg id="svg" width="300px" height="600px" style='background-color: white;'></svg>
+				</div>
+			</div>
+		</div>
+        
+        
+        
+        
+	</body>
+<html>

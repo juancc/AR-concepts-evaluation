@@ -6,6 +6,8 @@ A Semantic differential is proposed for get the aesthetical perception, and it i
 
 The application is supose to send to a server the differential semantic, the colors of the context in which is seen the AR, the tint of the ilumination calculated from the marker.
 
+# Users perception of products concept 
+
 
 # Libraries
 The application is developed in eclipse and for the graphical requirements is used Processing for android available in http://processing.org/

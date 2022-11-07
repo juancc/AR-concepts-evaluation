@@ -36,8 +36,8 @@ public class ARconfig {
 	  public float getmS(){
 	    return mS;
 	  }
-	  public void setmS(float mS){
-	    this.mS = mS;
+	  public void setmS(double mS){
+	    this.mS = (float) mS;
 	  }
 	  
 	  public String getcamPara(){

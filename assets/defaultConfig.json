@@ -1,0 +1,13 @@
+{
+    "ar": {
+        "MarkerSize": 5,
+        "numMarkers": 2,
+        "mS": 0.2,
+        "patternPath": "patt.hiro",
+        "camPara": "camera_para_dat",
+        "camSizeW": 352,
+        "camSizeH": 288,
+        "ftps": 15
+    }
+
+}
